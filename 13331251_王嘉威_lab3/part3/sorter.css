@@ -1,0 +1,45 @@
+th {
+	background-color: blue;
+    color: white;
+    font-weight: 900;
+}
+
+thead tr {
+	position: relative;
+}
+
+thead tr th {
+	cursor: pointer;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #eeeeee;
+}
+
+table {
+	border-spacing: 1px 1px !important;
+	width: 600px;
+}
+
+.up {
+	background-color: rgba(26, 0, 255, 0.5);
+	background-image: url("ascend.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.normal {
+	background-color: blue;
+	background-image: none;
+}
+
+.down {
+	background-color: rgba(26, 0, 255	, 0.5);
+	background-image: url("descend.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
